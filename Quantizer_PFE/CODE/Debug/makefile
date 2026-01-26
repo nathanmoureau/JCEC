@@ -60,8 +60,8 @@ all: main-build
 main-build: Quantizer_PFE.elf secondary-outputs
 
 # Tool invocations
-Quantizer_PFE.elf Quantizer_PFE.map: $(OBJS) $(USER_OBJS) C:\Users\Admin\STM32CubeIDE\workspace_1.19.0\Quantizer_PFE\STM32F401RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Quantizer_PFE.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\Admin\STM32CubeIDE\workspace_1.19.0\Quantizer_PFE\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Quantizer_PFE.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Quantizer_PFE.elf Quantizer_PFE.map: $(OBJS) $(USER_OBJS) K:\Travail\2025-2026\PFE\JCEC\Quantizer_PFE\CODE\STM32F401RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Quantizer_PFE.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"K:\Travail\2025-2026\PFE\JCEC\Quantizer_PFE\CODE\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Quantizer_PFE.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
