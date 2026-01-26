@@ -3513,72 +3513,72 @@ LOAD C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
 .rel.dyn        0x08003478        0x0
  .rel.iplt      0x08003478        0x0 C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.data           0x20000000       0x5c load address 0x08003478
+.data           0x20000000       0x84 load address 0x08003478
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
  *(.data*)
  .data.QUANTIZE_REF
-                0x20000000       0x50 ./Core/Src/main.o
+                0x20000000       0x78 ./Core/Src/main.o
                 0x20000000                QUANTIZE_REF
  .data.SystemCoreClock
-                0x20000050        0x4 ./Core/Src/system_stm32f4xx.o
-                0x20000050                SystemCoreClock
+                0x20000078        0x4 ./Core/Src/system_stm32f4xx.o
+                0x20000078                SystemCoreClock
  .data.uwTickPrio
-                0x20000054        0x4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
-                0x20000054                uwTickPrio
+                0x2000007c        0x4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+                0x2000007c                uwTickPrio
  .data.uwTickFreq
-                0x20000058        0x1 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
-                0x20000058                uwTickFreq
+                0x20000080        0x1 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+                0x20000080                uwTickFreq
  *(.RamFunc)
  *(.RamFunc*)
-                0x2000005c                        . = ALIGN (0x4)
- *fill*         0x20000059        0x3 
-                0x2000005c                        _edata = .
+                0x20000084                        . = ALIGN (0x4)
+ *fill*         0x20000081        0x3 
+                0x20000084                        _edata = .
 
-.igot.plt       0x2000005c        0x0 load address 0x080034d4
- .igot.plt      0x2000005c        0x0 C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x2000005c                        . = ALIGN (0x4)
+.igot.plt       0x20000084        0x0 load address 0x080034fc
+ .igot.plt      0x20000084        0x0 C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x20000084                        . = ALIGN (0x4)
 
-.bss            0x2000005c      0x11c load address 0x080034d4
-                0x2000005c                        _sbss = .
-                0x2000005c                        __bss_start__ = _sbss
+.bss            0x20000084      0x11c load address 0x080034fc
+                0x20000084                        _sbss = .
+                0x20000084                        __bss_start__ = _sbss
  *(.bss)
- .bss           0x2000005c       0x1c C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .bss           0x20000084       0x1c C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.bss*)
  .bss.AD_RES_BUFFER
-                0x20000078        0x8 ./Core/Src/main.o
-                0x20000078                AD_RES_BUFFER
+                0x200000a0        0x8 ./Core/Src/main.o
+                0x200000a0                AD_RES_BUFFER
  .bss.temp_ad_res1
-                0x20000080        0x2 ./Core/Src/main.o
-                0x20000080                temp_ad_res1
+                0x200000a8        0x2 ./Core/Src/main.o
+                0x200000a8                temp_ad_res1
  .bss.temp_ad_res2
-                0x20000082        0x2 ./Core/Src/main.o
-                0x20000082                temp_ad_res2
- .bss.hadc1     0x20000084       0x48 ./Core/Src/main.o
-                0x20000084                hadc1
+                0x200000aa        0x2 ./Core/Src/main.o
+                0x200000aa                temp_ad_res2
+ .bss.hadc1     0x200000ac       0x48 ./Core/Src/main.o
+                0x200000ac                hadc1
  .bss.hdma_adc1
-                0x200000cc       0x60 ./Core/Src/main.o
-                0x200000cc                hdma_adc1
- .bss.htim1     0x2000012c       0x48 ./Core/Src/main.o
-                0x2000012c                htim1
- .bss.uwTick    0x20000174        0x4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
-                0x20000174                uwTick
+                0x200000f4       0x60 ./Core/Src/main.o
+                0x200000f4                hdma_adc1
+ .bss.htim1     0x20000154       0x48 ./Core/Src/main.o
+                0x20000154                htim1
+ .bss.uwTick    0x2000019c        0x4 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+                0x2000019c                uwTick
  *(COMMON)
-                0x20000178                        . = ALIGN (0x4)
-                0x20000178                        _ebss = .
-                0x20000178                        __bss_end__ = _ebss
+                0x200001a0                        . = ALIGN (0x4)
+                0x200001a0                        _ebss = .
+                0x200001a0                        __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20000178      0x600 load address 0x080034d4
-                0x20000178                        . = ALIGN (0x8)
+                0x200001a0      0x600 load address 0x080034fc
+                0x200001a0                        . = ALIGN (0x8)
                 [!provide]                        PROVIDE (end = .)
-                0x20000178                        PROVIDE (_end = .)
-                0x20000378                        . = (. + _Min_Heap_Size)
- *fill*         0x20000178      0x200 
-                0x20000778                        . = (. + _Min_Stack_Size)
- *fill*         0x20000378      0x400 
-                0x20000778                        . = ALIGN (0x8)
+                0x200001a0                        PROVIDE (_end = .)
+                0x200003a0                        . = (. + _Min_Heap_Size)
+ *fill*         0x200001a0      0x200 
+                0x200007a0                        . = (. + _Min_Stack_Size)
+ *fill*         0x200003a0      0x400 
+                0x200007a0                        . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
