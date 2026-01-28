@@ -342,7 +342,7 @@ static void MX_GPIO_Init(void)
 
 void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)
 {
-	uint16_t scale = 1;
+	uint16_t scale = 2;
 
 	for (int i = 0; i < 2; i++)
 	{

@@ -1024,8 +1024,8 @@ void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef* hadc)
  80008ae:	b089      	sub	sp, #36	@ 0x24
  80008b0:	af00      	add	r7, sp, #0
  80008b2:	6078      	str	r0, [r7, #4]
-	uint16_t scale = 1;
- 80008b4:	2301      	movs	r3, #1
+	uint16_t scale = 2;
+ 80008b4:	2302      	movs	r3, #2
  80008b6:	827b      	strh	r3, [r7, #18]
 
 	for (int i = 0; i < 2; i++)
