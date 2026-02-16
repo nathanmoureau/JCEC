@@ -616,7 +616,19 @@
     ],
     [
       "5ba8fbfe-31f9-41fc-9497-b0fb46192972",
-      "stm32_out"
+      "stm32 Quantizer"
+    ],
+    [
+      "d62b2f6e-2db2-4c1b-86ca-51f590e97ca4",
+      "Interface 1"
+    ],
+    [
+      "e4c0f6c0-dce1-4f63-a14c-fff18c69e1f5",
+      "Interface 2"
+    ],
+    [
+      "f6a82ef3-17a9-4ca3-971b-c2790f161438",
+      "stm32 Boite noire"
     ]
   ],
   "text_variables": {}

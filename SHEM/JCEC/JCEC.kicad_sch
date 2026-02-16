@@ -21,7 +21,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "5ba8fbfe-31f9-41fc-9497-b0fb46192972")
-		(property "Sheetname" "stm32_out"
+		(property "Sheetname" "stm32 Quantizer"
 			(at 20.32 18.3384 0)
 			(effects
 				(font
@@ -30,7 +30,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "stm32_Quantizer.kicad_sch"
 			(at 20.32 59.0046 0)
 			(effects
 				(font
@@ -43,6 +43,140 @@
 			(project "JCEC"
 				(path "/0448b4c1-bd17-4072-a731-a022617275b4"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 19.05)
+		(size 43.18 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d62b2f6e-2db2-4c1b-86ca-51f590e97ca4")
+		(property "Sheetname" "Interface 1"
+			(at 69.85 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interface_1.kicad_sch"
+			(at 69.85 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "JCEC"
+				(path "/0448b4c1-bd17-4072-a731-a022617275b4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 19.05)
+		(size 41.91 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e4c0f6c0-dce1-4f63-a14c-fff18c69e1f5")
+		(property "Sheetname" "Interface 2"
+			(at 118.11 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interface_2.kicad_sch"
+			(at 118.11 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "JCEC"
+				(path "/0448b4c1-bd17-4072-a731-a022617275b4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 19.05)
+		(size 41.91 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f6a82ef3-17a9-4ca3-971b-c2790f161438")
+		(property "Sheetname" "stm32 Boite noire"
+			(at 165.1 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32_boite_noire.kicad_sch"
+			(at 165.1 59.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 165.1 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "JCEC"
+				(path "/0448b4c1-bd17-4072-a731-a022617275b4"
+					(page "5")
 				)
 			)
 		)
