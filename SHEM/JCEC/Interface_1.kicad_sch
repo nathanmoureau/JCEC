@@ -2027,6 +2027,14 @@
 		(uuid "4091dd6d-4ff7-4df4-a75c-0e677609a2af")
 	)
 	(no_connect
+		(at 114.3 90.17)
+		(uuid "8acc5060-5287-48a7-97d7-28b1cd1a684a")
+	)
+	(no_connect
+		(at 111.76 90.17)
+		(uuid "b484d624-0948-4fac-ad60-e3118db37abf")
+	)
+	(no_connect
 		(at 53.34 71.12)
 		(uuid "bf551461-384e-4325-b01d-52e7f167074f")
 	)
